@@ -1,0 +1,35 @@
+version: 0.2
+
+#env:
+  #variables:
+     # key: "value"
+     # key: "value"
+  #parameter-store:
+     # key: "value"
+     # key: "value"
+
+phases:
+  #install:
+    #commands:
+      # - command
+      # - command
+  pre_build:
+    commands:
+       - npm install 
+      # - command
+  build:
+    commands:
+      - ng build 
+  post_build:
+    commands:
+      #- aws s3 cp dist/$Package_Name s3://fc-lib/fclabcore/
+      # - command
+artifacts:
+  files:
+    - dist/* 
+    # - location
+  #discard-paths: yes
+  base-directory: dist
+#cache:
+  #paths:
+    # - paths
