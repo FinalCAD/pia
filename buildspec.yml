@@ -15,8 +15,8 @@ phases:
       # - command
   pre_build:
     commands:
+       - npm install agular-cli
        - npm install 
-      # - command
   build:
     commands:
       - ng build 
