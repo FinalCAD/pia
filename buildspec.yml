@@ -20,8 +20,8 @@ phases:
   build:
     commands:
       - ng build 
-  post_build:
-    commands:
+  #post_build:
+    #commands:
       #- aws s3 cp dist/$Package_Name s3://fc-lib/fclabcore/
       # - command
 artifacts:
