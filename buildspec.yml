@@ -26,7 +26,7 @@ phases:
       # - command
 artifacts:
   files:
-    - dist/*.*
+    - dist/**/*.*
     # - location
   #discard-paths: yes
   base-directory: dist
